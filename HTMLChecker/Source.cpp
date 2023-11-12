@@ -20,6 +20,7 @@ int Count(string a) {
         index2 = a.find('<', index2)+1;
 
     }
+
     if (count1 == count2) {
         return 1;
     }
